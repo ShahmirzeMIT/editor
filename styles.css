@@ -1,0 +1,46 @@
+/* Default Light Mode (Light Theme) */
+body {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#toolbar {
+  background-color: #f1f1f1;
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#file-tree {
+  background-color: #f9f9f9;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+#output-container {
+  background-color: #f9f9f9;
+  color: #000000;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark Mode */
+body.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+body.dark-mode #toolbar {
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #333;
+}
+
+body.dark-mode #file-tree {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
+
+body.dark-mode #output-container {
+  background-color: #1e1e1e;
+  color: #ffffff;
+}
